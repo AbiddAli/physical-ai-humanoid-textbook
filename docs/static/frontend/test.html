@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Chat Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #chat-output {
+            border: 1px solid #ccc;
+            height: 400px;
+            overflow-y: scroll;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        #user-input {
+            width: 70%;
+            padding: 10px;
+        }
+        #chat-form {
+            display: flex;
+        }
+        button {
+            width: 25%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Chat Interface</h1>
+    <div id="chat-output"></div>
+    <form id="chat-form">
+        <input type="text" id="user-input" placeholder="Type your message here..." />
+        <button type="submit">Send</button>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>

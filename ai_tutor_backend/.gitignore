@@ -1,0 +1,24 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env.local
+
+# Tests & debug
+test*.py
+*_test.py
+*_debug.py
+debug_*.py
+simple_*.py
+inspect*.py
+*inspect*.py
+
+# Outputs
+*.txt
+*.log
+
+# Experiments
+generate_embeddings.py
+final_test.py
+validate_additions.py

@@ -1,0 +1,14 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Qdrant local data
+qdrant_data/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
