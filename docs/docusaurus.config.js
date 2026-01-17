@@ -11,7 +11,7 @@ const config = {
     v4: true,
   },
 
-  url: 'http://localhost:3000',
+  url: 'https://physical-ai-humanoid-textbook.vercel.app',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
